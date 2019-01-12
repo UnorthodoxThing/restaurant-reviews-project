@@ -1,0 +1,59 @@
+/* For mobile Phones */
+@media only screen and (max-width: 600px) {
+  nav {
+    height: 120px;
+  }
+
+  nav h1 a {
+    margin-top: 3em;
+    display: inline-block;
+  }
+
+  .inside header {
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+  }
+
+  #breadcrumb {
+    padding: 10px 40px 16px;
+    list-style: none;
+    background-color: #eee;
+    font-size: 17px;
+    margin: 0;
+    width: auto;
+  }
+
+  .filter-options select {
+    margin: 10px auto;
+    display: block;
+    width: 85%;
+  }
+
+  #maincontent {
+    position: relative;
+    display: block;
+  }
+
+  .inside #map-container {
+    background: none;
+    height: 40em;
+    position: relative;
+    top: 0;
+    width: 100%;
+    display: block;
+  }
+
+  #restaurant-container, #reviews-container {
+    width: auto;
+  }
+
+  #restaurants-list .restaurant-img {
+    min-height: 195px;
+  }
+
+  .inside #footer {
+    width: auto;
+  }
+}
